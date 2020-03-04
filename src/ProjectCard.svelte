@@ -37,9 +37,8 @@
 
 <div
   on:mouseenter={enter}
-  on:touchstart={enter}
   on:mouseleave={leave}
-  on:touchend={leave}
+  on:click={enter}
   style={`background: url(${project.background}) top center/cover no-repeat`}
   class="relative overflow-hidden w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5
   project-height border-2 border-black bg">
@@ -48,42 +47,36 @@
   </div> -->
   <div
     class="absolute flex items-center justify-center bottom-0 bg-gray-900
-    text-white w-full h-12 font-hairline text-xl">
+    text-white w-full h-16 font-hairline text-xl">
     {project.title}
   </div>
 
   {#if hovering}
     <div
       transition:fly={{ duration: 550, easing: quartInOut, x: offset, opacity: 1 }}
-      class="absolute bg-blue-gray-700 w-full h-full top-0 bottom-0 left-0
+      class="absolute bg-black-alpha-60 w-full h-full top-0 bottom-0 left-0
       right-0" />
     <div
       transition:fly={{ duration: 750, easing: expoInOut, x: offset, opacity: 1 }}
-      class="absolute bg-blue-gray-50 w-full h-full top-0 bottom-0 left-0
-      right-0 p-2">
-      <div class="mt-8">
-        <p class="font-bold">Build With:</p>
-        <div class="flex flex-wrap bg-gray-400 rounded-md">
+      class="absolute bg-white w-full h-full top-0 bottom-0 left-0 right-0 p-2">
+      <div class="mt-4">
+        <p class="font-bold">Built With:</p>
+        <div class="flex flex-wrap bg-gray-400 rounded-md p-1">
           {#each project.technologies as tech}
-            <div class="bg-black text-white rounded-md m-1 p-2">
+            <a class="bg-black text-white rounded-md m-1 p-2" href={tech.link}>
               {tech.tech}
-            </div>
+            </a>
           {/each}
         </div>
       </div>
       <div class="absolute top-0 right-0 p-2">
-        <img class="h-12 w-12 " src={project.overlayIcon} alt="" />
+        <img class="h-8 w-8 " src={project.overlayIcon} alt="" />
       </div>
-      <div
-        class="absolute bottom-0 right-0 flex items-center justify-center
-        bg-gray-900 text-white w-full block h-12">
-        GO TO PROJECT
-      </div>
-
       <a
-        class="absolute top-0 bottom-0 left-0 right-0 h-full w-full z-10"
-        href={project.url}>
-        {''}
+        href={project.url}
+        class="absolute bottom-0 right-0 flex items-center justify-center
+        bg-gray-900 text-white w-full block h-16">
+        GO TO PROJECT
       </a>
     </div>
   {/if}
