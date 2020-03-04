@@ -15,5 +15,4 @@
       <ProjectCard {project} />
     {/each}
   </div>
-
 </section>

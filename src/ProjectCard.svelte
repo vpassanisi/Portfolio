@@ -37,7 +37,9 @@
 
 <div
   on:mouseenter={enter}
+  on:touchstart={enter}
   on:mouseleave={leave}
+  on:touchend={leave}
   style={`background: url(${project.background}) top center/cover no-repeat`}
   class="relative overflow-hidden w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5
   project-height border-2 border-black bg">
