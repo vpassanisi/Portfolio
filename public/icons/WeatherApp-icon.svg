@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="id_svgCanvas" x="0px" y="0px" width="64px" height="64px" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve" preserveAspectRatio="none">
+
+<g>
+	<polygon class="st2" points="46.982,6.169 32,14.902 17.102,6.102 17.19,23.571 2.033,32.121 17.19,40.905 17.102,58.102    32.001,49.419 46.983,58.07 46.982,40.771 61.967,32.121 46.982,23.47  " style="fill:#F7C90B;;"></polygon>
+	<polygon class="stshockcolor" points="46.982,6.169 32,14.902 17.102,6.102 17.19,23.571 2.033,32.121 17.19,40.905 17.102,58.102    32.001,49.419 46.983,58.07 46.982,40.771 61.967,32.121 46.982,23.47  " style="fill: rgb(255, 87, 34);" data-st="fill:#EA7A2F;;"></polygon>
+</g>
+<g>
+	<polygon class="st2" points="6.067,17.119 14.8,32.102 6,47 23.469,46.911 32.019,62.068 40.804,46.911 58,47 49.317,32.101    57.969,17.118 40.669,17.12 32.019,2.135 23.368,17.12  " style="fill:#F7C90B;;"></polygon>
+	<polygon class="st0 stshockcolor" points="6.067,17.119 14.8,32.102 6,47 23.469,46.911 32.019,62.068 40.804,46.911 58,47 49.317,32.101    57.969,17.118 40.669,17.12 32.019,2.135 23.368,17.12  " style="fill: rgb(255, 87, 34); opacity: 0.5;" data-st="fill:#EA7A2F;;opacity:0.5;;"></polygon>
+</g>
+<circle class="st2" cx="32" cy="32" r="17" style="fill:#F7C90B;;"></circle>
+</svg>
