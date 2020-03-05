@@ -833,7 +833,7 @@ var app = (function () {
     			div5.textContent = "- Belmont University, Nashiville TN";
     			t9 = space();
     			div7 = element("div");
-    			div7.textContent = "Interested in Web Development, Programming, Audio, Leaderning.\r\n              Love E-Sports, listening to music.";
+    			div7.textContent = "Interested in Web Development, Programming, Audio, Learning. Love\r\n              e-sports, listening to music.";
     			t11 = space();
     			hr = element("hr");
     			t12 = space();
@@ -869,37 +869,37 @@ var app = (function () {
     			attr_dev(div7, "class", "text-white text-center text-xl font-hairline w-full\r\n              md:w-3/5");
     			add_location(div7, file, 42, 12, 1855);
     			attr_dev(hr, "class", "my-8 w-1/3");
-    			add_location(hr, file, 48, 12, 2121);
+    			add_location(hr, file, 48, 12, 2119);
     			attr_dev(path0, "d", "M93.09,76.224c0.047-0.145,0.079-0.298,0.079-0.459V22.638c0-0.162-0.032-0.316-0.08-0.462\r\n                    c-0.007-0.02-0.011-0.04-0.019-0.06c-0.064-0.171-0.158-0.325-0.276-0.46c-0.008-0.009-0.009-0.02-0.017-0.029\r\n                    c-0.005-0.005-0.011-0.007-0.016-0.012c-0.126-0.134-0.275-0.242-0.442-0.323c-0.013-0.006-0.023-0.014-0.036-0.02\r\n                    c-0.158-0.071-0.33-0.111-0.511-0.123c-0.018-0.001-0.035-0.005-0.053-0.005c-0.017-0.001-0.032-0.005-0.049-0.005H8.465\r\n                    c-0.017,0-0.033,0.004-0.05,0.005c-0.016,0.001-0.032,0.004-0.048,0.005c-0.183,0.012-0.358,0.053-0.518,0.125\r\n                    c-0.01,0.004-0.018,0.011-0.028,0.015c-0.17,0.081-0.321,0.191-0.448,0.327c-0.005,0.005-0.011,0.006-0.016,0.011\r\n                    c-0.008,0.008-0.009,0.019-0.017,0.028c-0.118,0.135-0.213,0.29-0.277,0.461c-0.008,0.02-0.012,0.04-0.019,0.061\r\n                    c-0.048,0.146-0.08,0.3-0.08,0.462v53.128c0,0.164,0.033,0.32,0.082,0.468c0.007,0.02,0.011,0.039,0.018,0.059\r\n                    c0.065,0.172,0.161,0.327,0.28,0.462c0.007,0.008,0.009,0.018,0.016,0.026c0.006,0.007,0.014,0.011,0.021,0.018\r\n                    c0.049,0.051,0.103,0.096,0.159,0.14c0.025,0.019,0.047,0.042,0.073,0.06c0.066,0.046,0.137,0.083,0.21,0.117\r\n                    c0.018,0.008,0.034,0.021,0.052,0.028c0.181,0.077,0.38,0.121,0.589,0.121h83.204c0.209,0,0.408-0.043,0.589-0.121\r\n                    c0.028-0.012,0.054-0.03,0.081-0.044c0.062-0.031,0.124-0.063,0.181-0.102c0.03-0.021,0.057-0.048,0.086-0.071\r\n                    c0.051-0.041,0.101-0.082,0.145-0.129c0.008-0.008,0.017-0.014,0.025-0.022c0.008-0.009,0.01-0.021,0.018-0.03\r\n                    c0.117-0.134,0.211-0.288,0.275-0.458C93.078,76.267,93.083,76.246,93.09,76.224z\r\n                    M9.965,26.04l25.247,23.061L9.965,72.346V26.04z\r\n                    M61.711,47.971c-0.104,0.068-0.214,0.125-0.301,0.221c-0.033,0.036-0.044,0.083-0.073,0.121l-11.27,10.294L12.331,24.138h75.472\r\n                    L61.711,47.971z\r\n                    M37.436,51.132l11.619,10.613c0.287,0.262,0.649,0.393,1.012,0.393s0.725-0.131,1.011-0.393l11.475-10.481\r\n                    l25.243,23.002H12.309L37.436,51.132z\r\n                    M64.778,49.232L90.169,26.04v46.33L64.778,49.232z");
-    			add_location(path0, file, 56, 18, 2515);
+    			add_location(path0, file, 56, 18, 2513);
     			attr_dev(svg0, "class", "fill-current text-white h-12 w-12");
     			attr_dev(svg0, "xmlns", "http://www.w3.org/2000/svg");
     			attr_dev(svg0, "xmlns:xlink", "http://www.w3.org/1999/xlink");
     			attr_dev(svg0, "viewBox", "0 0 100 100");
-    			add_location(svg0, file, 51, 16, 2272);
+    			add_location(svg0, file, 51, 16, 2270);
     			attr_dev(a0, "class", "mr-8");
     			attr_dev(a0, "href", "mailto:vpassanisi@gmail.com");
-    			add_location(a0, file, 50, 14, 2203);
+    			add_location(a0, file, 50, 14, 2201);
     			attr_dev(g0, "sketch:type", "MSLayerGroup");
     			attr_dev(g0, "transform", "translate(-720.000000, 0.000000)");
-    			add_location(g0, file, 96, 20, 5556);
+    			add_location(g0, file, 96, 20, 5554);
     			attr_dev(path1, "d", "M35.9955151,27.6266598 C35.9955151,23.8394326\r\n                          33.0511715,20.8297982 29.7726613,20.8297982\r\n                          C27.2676024,20.8297982 25.0529201,20.8297982\r\n                          23.5815904,23.9999995 C23.3099556,24.5852775\r\n                          22.9955155,26.2895184 22.9955155,27.1324171\r\n                          L22.9955155,43.4999995 L15.036777,43.4999989\r\n                          L15.0367767,22.7102582 L15.0367767,12.455873\r\n                          L23.3012671,12.455873 L23.7089346,16.5\r\n                          L23.8873426,16.5 C25.0805776,14.5783603\r\n                          27.7924258,12.455873 32.6850041,12.455873\r\n                          C38.6490801,12.455873 43.9955153,17.1766025\r\n                          43.9955153,25.8297979 L43.9955153,43.4999995\r\n                          L35.9955151,43.4999995 L35.9955151,27.6266598 Z\r\n                          M4.32081087,8.76648024 C1.71699591,8.76648024\r\n                          0.036776724,6.92405932 0.036776724,4.64751022\r\n                          C0.036776724,2.3156217 1.7713812,0.525677812\r\n                          4.42767319,0.525677812 C7.08396519,0.525677812\r\n                          8.71170734,2.31466757 8.76609263,4.64751022\r\n                          C8.76704675,6.92405932 7.08491932,8.76648024\r\n                          4.32081087,8.76648024 L4.32081087,8.76648024 Z\r\n                          M0.995515537,43.4999995 L0.995515303,12.4558734\r\n                          L7.98371812,12.4558737 L7.98371835,43.4999999\r\n                          L0.995515537,43.4999995 Z");
     			attr_dev(path1, "id", "Shape");
-    			add_location(path1, file, 107, 24, 6073);
+    			add_location(path1, file, 107, 24, 6071);
     			attr_dev(g1, "transform", "translate(725.004485, 5.500000)");
     			attr_dev(g1, "sketch:type", "MSShapeGroup");
-    			add_location(g1, file, 104, 22, 5923);
+    			add_location(g1, file, 104, 22, 5921);
     			attr_dev(g2, "sketch:type", "MSLayerGroup");
     			attr_dev(g2, "transform", "translate(-716.000000, 1.000000)");
     			attr_dev(g2, "stroke", "#fff");
     			attr_dev(g2, "stroke-width", "2");
-    			add_location(g2, file, 99, 20, 5701);
+    			add_location(g2, file, 99, 20, 5699);
     			attr_dev(g3, "stroke", "none");
     			attr_dev(g3, "stroke-width", "1");
     			attr_dev(g3, "fill", "none");
     			attr_dev(g3, "fill-rule", "evenodd");
     			attr_dev(g3, "sketch:type", "MSPage");
-    			add_location(g3, file, 90, 18, 5342);
+    			add_location(g3, file, 90, 18, 5340);
     			attr_dev(svg1, "class", "h-12 w-12");
     			attr_dev(svg1, "width", "60px");
     			attr_dev(svg1, "height", "60px");
@@ -907,31 +907,31 @@ var app = (function () {
     			attr_dev(svg1, "xmlns", "http://www.w3.org/2000/svg");
     			attr_dev(svg1, "xmlns:xlink", "http://www.w3.org/1999/xlink");
     			attr_dev(svg1, "xmlns:sketch", "http://www.bohemiancoding.com/sketch/ns");
-    			add_location(svg1, file, 82, 16, 4986);
+    			add_location(svg1, file, 82, 16, 4984);
     			attr_dev(a1, "class", "mr-8");
     			attr_dev(a1, "href", "https://www.linkedin.com/in/vinny-passanisi-7a9966b8/");
-    			add_location(a1, file, 79, 14, 4857);
+    			add_location(a1, file, 79, 14, 4855);
     			attr_dev(g4, "sketch:type", "MSLayerGroup");
-    			add_location(g4, file, 152, 20, 8527);
+    			add_location(g4, file, 152, 20, 8525);
     			attr_dev(path2, "d", "M45.710328,7.26461023 C45.710328,7.26461023\r\n                          49.7891594,6.93752192 51.4260032,5.69777149\r\n                          C51.4260032,5.69777149 51.0336919,7.12495455\r\n                          46.1255745,11.6404882 C46.1255745,11.6404882\r\n                          47.7781108,36.0055044 22.5977549,41.9727222\r\n                          C22.5977549,41.9727222 9.82771721,44.7413348\r\n                          0.573996756,37.6789225 C0.573996756,37.6789225\r\n                          10.2610704,39.4282937 15.711181,33.3103948\r\n                          C15.711181,33.3103948 8.68096083,33.3826727\r\n                          6.45746056,26.1034266 C6.45746056,26.1034266\r\n                          9.11189981,26.6853253 10.6895952,25.9576457\r\n                          C10.6895952,25.9576457 2.72627742,24.2817775\r\n                          2.86992375,15.4724441 C2.86992375,15.4724441\r\n                          5.02220441,17.0748093 6.95841203,16.7832475\r\n                          C6.95841203,16.7832475 -0.214247369,10.5930706\r\n                          4.23275317,2.87770677 C4.23275317,2.87770677\r\n                          13.8437788,14.411551 25.7555598,13.7267481\r\n                          C25.5479366,12.9010645 25.4356751,12.0361793\r\n                          25.4356751,11.141893 C25.4356751,5.40743468\r\n                          30.0190793,0.755920455 35.6719848,0.755920455\r\n                          C38.5280117,0.755920455 41.1112314,1.94421879\r\n                          42.9689767,3.85897169 C44.330599,3.88224763\r\n                          47.1310988,3.63601262 49.9279773,1.60365494\r\n                          C49.9279773,1.60487999 50.0885232,3.82589534\r\n                          45.710328,7.26461023 L45.710328,7.26461023 Z");
     			attr_dev(path2, "id", "Shape");
-    			add_location(path2, file, 163, 24, 9042);
+    			add_location(path2, file, 163, 24, 9040);
     			attr_dev(g5, "transform", "translate(0.000000, 10.000000)");
     			attr_dev(g5, "sketch:type", "MSShapeGroup");
-    			add_location(g5, file, 160, 22, 8893);
+    			add_location(g5, file, 160, 22, 8891);
     			attr_dev(g6, "sketch:type", "MSLayerGroup");
     			attr_dev(g6, "transform", "translate(4.000000, 1.000000)");
     			attr_dev(g6, "stroke", "#fff");
     			attr_dev(g6, "stroke-width", "2");
     			attr_dev(g6, "stroke-linecap", "round");
     			attr_dev(g6, "stroke-linejoin", "round");
-    			add_location(g6, file, 153, 20, 8581);
+    			add_location(g6, file, 153, 20, 8579);
     			attr_dev(g7, "stroke", "none");
     			attr_dev(g7, "stroke-width", "1");
     			attr_dev(g7, "fill", "none");
     			attr_dev(g7, "fill-rule", "evenodd");
     			attr_dev(g7, "sketch:type", "MSPage");
-    			add_location(g7, file, 146, 18, 8313);
+    			add_location(g7, file, 146, 18, 8311);
     			attr_dev(svg2, "class", "h-12 w-12");
     			attr_dev(svg2, "width", "60px");
     			attr_dev(svg2, "height", "60px");
@@ -939,11 +939,11 @@ var app = (function () {
     			attr_dev(svg2, "xmlns", "http://www.w3.org/2000/svg");
     			attr_dev(svg2, "xmlns:xlink", "http://www.w3.org/1999/xlink");
     			attr_dev(svg2, "xmlns:sketch", "http://www.bohemiancoding.com/sketch/ns");
-    			add_location(svg2, file, 138, 16, 7957);
+    			add_location(svg2, file, 138, 16, 7955);
     			attr_dev(a2, "href", "https://twitter.com/VinnyPassanisi");
-    			add_location(a2, file, 137, 14, 7894);
+    			add_location(a2, file, 137, 14, 7892);
     			attr_dev(div8, "class", "flex flex-row");
-    			add_location(div8, file, 49, 12, 2160);
+    			add_location(div8, file, 49, 12, 2158);
     			attr_dev(div9, "class", "bg-black-alpha-60 border w-3/4 md:w-1/2 xl:w-1/3 flex\r\n            flex-col items-center justify-center p-4");
     			add_location(div9, file, 28, 10, 1215);
     			attr_dev(div10, "class", "bg-black-alpha-40 flex flex-col items-center justify-center\r\n          w-full h-full");
@@ -1716,7 +1716,7 @@ var app = (function () {
     			attr_dev(div0, "class", "absolute flex items-center justify-center bottom-0 bg-gray-900\r\n    text-white w-full h-16 font-hairline text-xl");
     			add_location(div0, file$1, 47, 2, 1394);
     			attr_dev(div1, "style", div1_style_value = `background: url(${/*project*/ ctx[0].background}) top center/cover no-repeat`);
-    			attr_dev(div1, "class", "relative overflow-hidden w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5\r\n  project-height border-2 border-black bg svelte-11pa106");
+    			attr_dev(div1, "class", "relative overflow-hidden w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5\r\n  project-height border-4 border-black bg svelte-11pa106");
     			add_location(div1, file$1, 37, 0, 988);
     		},
     		l: function claim(nodes) {
@@ -1946,9 +1946,9 @@ var app = (function () {
     function create_fragment$3(ctx) {
     	let section;
     	let div0;
-    	let t1;
+    	let t0;
     	let hr;
-    	let t2;
+    	let t1;
     	let div1;
     	let current;
     	let each_value = projects;
@@ -1967,22 +1967,21 @@ var app = (function () {
     		c: function create() {
     			section = element("section");
     			div0 = element("div");
-    			div0.textContent = "Projects";
-    			t1 = space();
+    			t0 = text("Projects\r\n    ");
     			hr = element("hr");
-    			t2 = space();
+    			t1 = space();
     			div1 = element("div");
 
     			for (let i = 0; i < each_blocks.length; i += 1) {
     				each_blocks[i].c();
     			}
 
-    			attr_dev(div0, "class", "flex items-center justify-center text-white text-6xl font-hairline\r\n    tracking-wider");
+    			attr_dev(hr, "class", "w-64 text-white mb-4");
+    			add_location(hr, file$2, 10, 4, 271);
+    			attr_dev(div0, "class", "flex flex-col items-center justify-center text-white text-6xl\r\n    font-hairline tracking-wider");
     			add_location(div0, file$2, 6, 2, 137);
-    			attr_dev(hr, "class", "text-white");
-    			add_location(hr, file$2, 11, 2, 270);
     			attr_dev(div1, "class", "flex flex-wrap");
-    			add_location(div1, file$2, 12, 2, 299);
+    			add_location(div1, file$2, 12, 2, 320);
     			add_location(section, file$2, 5, 0, 124);
     		},
     		l: function claim(nodes) {
@@ -1991,9 +1990,9 @@ var app = (function () {
     		m: function mount(target, anchor) {
     			insert_dev(target, section, anchor);
     			append_dev(section, div0);
+    			append_dev(div0, t0);
+    			append_dev(div0, hr);
     			append_dev(section, t1);
-    			append_dev(section, hr);
-    			append_dev(section, t2);
     			append_dev(section, div1);
 
     			for (let i = 0; i < each_blocks.length; i += 1) {

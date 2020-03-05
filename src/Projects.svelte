@@ -5,11 +5,11 @@
 
 <section>
   <div
-    class="flex items-center justify-center text-white text-6xl font-hairline
-    tracking-wider">
+    class="flex flex-col items-center justify-center text-white text-6xl
+    font-hairline tracking-wider">
     Projects
+    <hr class="w-64 text-white mb-4" />
   </div>
-  <hr class="text-white" />
   <div class="flex flex-wrap">
     {#each projects as project, i}
       <ProjectCard {project} />
