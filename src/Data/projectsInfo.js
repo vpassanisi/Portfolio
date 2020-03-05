@@ -2,6 +2,7 @@ const projects = [
   {
     id: 1,
     url: "https://bug-tracker-api.herokuapp.com/",
+    github: "https://github.com/vpassanisi/Bug-Tracker-API/tree/master/client",
     title: "BugTracker",
     description:
       "An app to track bugs in your projects. You can tag a fixer to a bug and the account will automatically have that project added to their porjects page.",
@@ -47,6 +48,7 @@ const projects = [
   {
     id: 2,
     url: "https://bug-tracker-api.herokuapp.com/docs/index.html",
+    github: "https://github.com/vpassanisi/Bug-Tracker-API",
     title: "BugTracker REST API",
     description: "REAST API server for BugTracker App",
     background: "./images/BugTrackerAPI-bg.jpg",
@@ -94,6 +96,8 @@ const projects = [
   {
     id: 4,
     url: "https://journalll.herokuapp.com/",
+    github:
+      "https://github.com/vpassanisi/Gratitude-Journal_API/tree/master/client",
     title: "Journal App",
     description: "Journaling app",
     background: "./images/Journal-bg.jpg",
@@ -137,6 +141,7 @@ const projects = [
   {
     id: 3,
     url: "https://journalll.herokuapp.com/docs/",
+    github: "https://github.com/vpassanisi/Gratitude-Journal_API",
     title: "Journal REST API",
     description: "REST API for journaling app",
     background: "./images/JournalAPI-bg.jpg",
@@ -177,6 +182,7 @@ const projects = [
   {
     id: 5,
     url: "https://the-best-react-weather-app.netlify.com/",
+    github: "https://github.com/vpassanisi/React-Weather-App",
     title: "Weather App",
     description:
       "A weather app. Put in any location in any format. You can change between celcius and farenheit and add any locatin to you favorites list.  all changes are saved for you and are loaded when the page loads",

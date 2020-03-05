@@ -31,7 +31,7 @@
 
 <style>
   .project-height {
-    height: 20rem;
+    height: 21rem;
   }
 </style>
 
@@ -72,13 +72,25 @@
       <div class="absolute top-0 right-0 p-2">
         <img class="h-8 w-8 " src={project.overlayIcon} alt="" />
       </div>
-      <a
-        href={project.url}
+      <div
         class="absolute bottom-0 right-0 flex items-center justify-center
-        bg-gray-900 text-white w-full block h-16 hover:bg-gray-800 transition
-        duration-500 ease-in-out">
-        GO TO PROJECT
-      </a>
+        text-white w-full block h-16 bg-gray-900">
+        <a
+          class="h-full w-3/4 bg-gray-900 hover:bg-gray-800 transition
+          duration-500 ease-in-out flex items-center justify-center border-r"
+          href={project.url}>
+          GO TO PROJECT
+        </a>
+        <a
+          class="h-full w-1/4 bg-gray-900 hover:bg-gray-800 transition
+          duration-500 ease-in-out flex items-center justify-center"
+          href={project.github}>
+          <img
+            class="h-12 w-12"
+            src="./icons/GitHub-Mark-Light-64px.png"
+            alt="" />
+        </a>
+      </div>
     </div>
   {/if}
 </div>
