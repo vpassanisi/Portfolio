@@ -75,7 +75,8 @@
       <a
         href={project.url}
         class="absolute bottom-0 right-0 flex items-center justify-center
-        bg-gray-900 text-white w-full block h-16">
+        bg-gray-900 text-white w-full block h-16 hover:bg-gray-800 transition
+        duration-500 ease-in-out">
         GO TO PROJECT
       </a>
     </div>
