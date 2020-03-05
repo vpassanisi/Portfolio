@@ -30,8 +30,8 @@
             class="bg-black-alpha-60 border w-3/4 md:w-1/2 xl:w-1/3 flex
             flex-col items-center justify-center p-4">
             <div
-              class="text-center font-thin text-white text-6xl leading-tight
-              tracking-widest mb-8">
+              class="text-center font-thin text-white text-5xl sm:text-6xl
+              leading-tight tracking-widest mb-8">
               <div>Vincent</div>
               <div>Dominic</div>
               <div>Passanisi</div>
