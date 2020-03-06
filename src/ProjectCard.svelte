@@ -4,7 +4,7 @@
   import { media } from "./stores/watchMedia.js";
 
   export let project;
-  let hovering;
+  let hovering = false;
   let offset;
   const bg = project.background;
 
@@ -56,9 +56,19 @@
       transition:fly={{ duration: 550, easing: quartInOut, x: offset, opacity: 1 }}
       class="absolute bg-black-alpha-60 w-full h-full top-0 bottom-0 left-0
       right-0" />
+    <!-- CSS only transitions -->
+    <!-- <div
+    style={!hovering ? `transform: translateX(${offset}px)` : ''}
+    class="absolute bg-black-alpha-60 w-full h-full top-0 bottom-0 left-0
+    right-0 transition-transform duration-200 ease-linear" /> -->
     <div
       transition:fly={{ duration: 750, easing: expoInOut, x: offset, opacity: 1 }}
-      class="absolute bg-white w-full h-full top-0 bottom-0 left-0 right-0 p-2">
+      class=" absolute bg-white w-full h-full top-0 bottom-0 left-0 right-0 p-2">
+      <!-- CSS only transitions -->
+      <!-- <div
+    style={!hovering ? `transform: translateX(${offset}px)` : ''}
+    class="absolute bg-white w-full h-full top-0 bottom-0 left-0 right-0 p-2
+    transition-transform duration-500 ease-in-out"> -->
       <div class="mt-4">
         <p class="font-bold">Built With:</p>
         <div class="flex flex-wrap bg-gray-400 rounded-md p-1">
