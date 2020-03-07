@@ -1,6 +1,5 @@
 const projects = [
   {
-    id: 1,
     url: "https://bug-tracker-api.herokuapp.com/",
     github: "https://github.com/vpassanisi/Bug-Tracker-API/tree/master/client",
     title: "BugTracker",
@@ -46,7 +45,6 @@ const projects = [
   },
 
   {
-    id: 2,
     url: "https://bug-tracker-api.herokuapp.com/docs/index.html",
     github: "https://github.com/vpassanisi/Bug-Tracker-API",
     title: "BugTracker REST API",
@@ -94,7 +92,6 @@ const projects = [
     ]
   },
   {
-    id: 4,
     url: "https://journalll.herokuapp.com/",
     github:
       "https://github.com/vpassanisi/Gratitude-Journal_API/tree/master/client",
@@ -139,7 +136,6 @@ const projects = [
     ]
   },
   {
-    id: 3,
     url: "https://journalll.herokuapp.com/docs/",
     github: "https://github.com/vpassanisi/Gratitude-Journal_API",
     title: "Journal REST API",
@@ -179,7 +175,6 @@ const projects = [
     ]
   },
   {
-    id: 5,
     url: "https://the-best-react-weather-app.netlify.com/",
     github: "https://github.com/vpassanisi/React-Weather-App",
     title: "Weather App",
@@ -212,7 +207,33 @@ const projects = [
     ]
   },
   {
-    id: 6,
+    url: "https://calorie-tracker-site.netlify.com/",
+    github: "https://github.com/vpassanisi/Calorie-Tracker",
+    title: "Calorie Tracker",
+    description: "A web app to track the calories in meals",
+    background: "./images/CalorieTracker-bg.jpg",
+    baseIcon: "",
+    overlayIcon: "./icons/JavaScript-icon.jpg",
+    technologies: [
+      {
+        tech: "Javascript",
+        link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+      },
+      {
+        tech: "MaterializeCSS",
+        link: "https://github.com/Dogfalo/materialize"
+      },
+      {
+        tech: "HTML",
+        link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference"
+      },
+      {
+        tech: "CSS",
+        link: "https://developer.mozilla.org/en-US/docs/Web/CSS"
+      }
+    ]
+  },
+  {
     url: "https://githubfinder-react-app.netlify.com/",
     github: "https://github.com/vpassanisi/github-finder",
     title: "Github-Finder",
@@ -246,7 +267,6 @@ const projects = [
     ]
   },
   {
-    id: 7,
     url: "https://edgeledger-site.netlify.com/",
     github: "https://github.com/vpassanisi/EdgeLedger_Website",
     title: "EdgeLedger Website",
@@ -274,7 +294,6 @@ const projects = [
     ]
   },
   {
-    id: 8,
     url: "https://hotel-bt-site.netlify.com/",
     github: "https://github.com/vpassanisi/Hotel_BT_Website",
     title: "Hotel BT Website",
@@ -298,12 +317,61 @@ const projects = [
     ]
   },
   {
-    id: 9,
     url: "https://presentation-site.netlify.com/",
     github: "https://github.com/vpassanisi/Presesntation_Website",
     title: "Presentation Website",
     description: "Simple HTML and CSS static website",
     background: "./images/Presentation-bg.jpg",
+    baseIcon: "",
+    overlayIcon: "./icons/FA-icon.svg",
+    technologies: [
+      {
+        tech: "Font Awesome",
+        link: "https://fontawesome.com/"
+      },
+      {
+        tech: "HTML",
+        link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference"
+      },
+      {
+        tech: "CSS",
+        link: "https://developer.mozilla.org/en-US/docs/Web/CSS"
+      }
+    ]
+  },
+  {
+    url: "https://personal-demo-site.netlify.com/",
+    github: "https://github.com/vpassanisi/portfolio_website",
+    title: "Demo Personal Website",
+    description: "Simple HTML and CSS and JavaScript static website",
+    background: "./images/Personal-bg.jpg",
+    baseIcon: "",
+    overlayIcon: "./icons/FA-icon.svg",
+    technologies: [
+      {
+        tech: "Font Awesome",
+        link: "https://fontawesome.com/"
+      },
+      {
+        tech: "Javascript",
+        link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+      },
+      {
+        tech: "HTML",
+        link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference"
+      },
+      {
+        tech: "CSS",
+        link: "https://developer.mozilla.org/en-US/docs/Web/CSS"
+      }
+    ]
+  },
+  {
+    url: "https://newsgrid-demo.netlify.com/",
+    github: "https://github.com/vpassanisi/newsgrid",
+    title: "NewsGrid Website",
+    description: "Simple HTML and CSS and static website",
+    background: "./images/NewsGrid-bg.jpg",
     baseIcon: "",
     overlayIcon: "./icons/FA-icon.svg",
     technologies: [
