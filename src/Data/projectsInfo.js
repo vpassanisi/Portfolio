@@ -26,7 +26,7 @@ const projects = [
         link: "https://github.com/rollup/rollup"
       },
       {
-        tech: "Svelte SPA Router",
+        tech: "SPA Router",
         link: "https://github.com/ItalyPaleAle/svelte-spa-router"
       },
       {
@@ -114,7 +114,7 @@ const projects = [
         link: "https://github.com/matyunya/smelte"
       },
       {
-        tech: "Svelte SPA Router",
+        tech: "SPA Router",
         link: "https://github.com/ItalyPaleAle/svelte-spa-router"
       },
       {
