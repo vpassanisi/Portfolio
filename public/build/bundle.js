@@ -1449,29 +1449,72 @@ var app = (function () {
         ]
       },
       {
-        url: "https://calorie-tracker-site.netlify.com/",
-        github: "https://github.com/vpassanisi/Calorie-Tracker",
-        title: "Calorie Tracker",
-        description: "A web app to track the calories in meals",
-        background: "./images/CalorieTracker-bg.jpg",
-        baseIcon: "",
-        overlayIcon: "./icons/JavaScript-icon.jpg",
+        url: "https://react-contact-keeperr.herokuapp.com/",
+        github: "https://github.com/vpassanisi/React-Contact-Keeper",
+        title: "Contact Keeper",
+        description:
+          "A React, Node, Express, MongoDB app for CRUD operations to keep your contacts",
+        background: "./images/ContactKeeper-bg.jpg",
+        overlayIcon: "./icons/reactjs-icon.svg",
         technologies: [
           {
-            tech: "Javascript",
-            link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+            tech: "React",
+            link: "https://github.com/facebook/react"
           },
           {
-            tech: "MaterializeCSS",
-            link: "https://github.com/Dogfalo/materialize"
+            tech: "React Router",
+            link:
+              "https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom"
           },
           {
-            tech: "HTML",
-            link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference"
+            tech: "react-transition-group",
+            link: "https://github.com/reactjs/react-transition-group"
           },
           {
             tech: "CSS",
             link: "https://developer.mozilla.org/en-US/docs/Web/CSS"
+          },
+          {
+            tech: "NPM",
+            link: "https://www.npmjs.com/"
+          }
+        ]
+      },
+      {
+        url: "https://react-contact-keeperr.herokuapp.com/doc/doc.html",
+        github: "https://github.com/vpassanisi/React-Contact-Keeper",
+        title: "Contact Keeper REST API",
+        description: "Node Express REST API for the contact keeper app",
+        background: "./images/ContactKeeperAPI-bg.jpg",
+        overlayIcon: "./icons/expressjs-icon.svg",
+        technologies: [
+          {
+            tech: "Node",
+            link: "https://github.com/nodejs/node"
+          },
+          {
+            tech: "Express",
+            link: "https://github.com/expressjs/express"
+          },
+          {
+            tech: "MongoDB",
+            link: "https://www.mongodb.com/"
+          },
+          {
+            tech: "Mongoose",
+            link: "https://github.com/Automattic/mongoose"
+          },
+          {
+            tech: "JWT",
+            link: "https://github.com/auth0/node-jsonwebtoken"
+          },
+          {
+            tech: "dotenv",
+            link: "https://github.com/motdotla/dotenv"
+          },
+          {
+            tech: "Nodemon",
+            link: "https://github.com/remy/nodemon"
           }
         ]
       },
@@ -1508,6 +1551,34 @@ var app = (function () {
           }
         ]
       },
+      {
+        url: "https://calorie-tracker-site.netlify.com/",
+        github: "https://github.com/vpassanisi/Calorie-Tracker",
+        title: "Calorie Tracker",
+        description: "A web app to track the calories in meals",
+        background: "./images/CalorieTracker-bg.jpg",
+        baseIcon: "",
+        overlayIcon: "./icons/JavaScript-icon.jpg",
+        technologies: [
+          {
+            tech: "Javascript",
+            link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+          },
+          {
+            tech: "MaterializeCSS",
+            link: "https://github.com/Dogfalo/materialize"
+          },
+          {
+            tech: "HTML",
+            link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference"
+          },
+          {
+            tech: "CSS",
+            link: "https://developer.mozilla.org/en-US/docs/Web/CSS"
+          }
+        ]
+      },
+
       {
         url: "https://edgeledger-site.netlify.com/",
         github: "https://github.com/vpassanisi/EdgeLedger_Website",
