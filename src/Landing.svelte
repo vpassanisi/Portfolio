@@ -24,8 +24,8 @@
         class="w-full h-full">
         <div
           in:fade={{ delay: 200, duration: 2000, easing: quartInOut }}
-          class="bg-black-alpha-40 flex flex-col items-center justify-center
-          w-full h-full">
+          class="relative bg-black-alpha-40 flex flex-col items-center
+          justify-center w-full h-full">
           <div
             class="bg-black-alpha-70 border w-90p max-w-screen-sm flex flex-col
             items-center justify-center p-4">
@@ -242,6 +242,14 @@
                 </svg>
               </a>
             </div>
+          </div>
+          <div class="absolute bottom-0 text-white">
+            <svg
+              class="transform rotate-90 fill-current text-white h-8 w-8"
+              viewBox="0 0 20 20">
+              <path
+                d="M14.989,9.491L6.071,0.537C5.78,0.246,5.308,0.244,5.017,0.535c-0.294,0.29-0.294,0.763-0.003,1.054l8.394,8.428L5.014,18.41c-0.291,0.291-0.291,0.763,0,1.054c0.146,0.146,0.335,0.218,0.527,0.218c0.19,0,0.382-0.073,0.527-0.218l8.918-8.919C15.277,10.254,15.277,9.784,14.989,9.491z" />
+            </svg>
           </div>
         </div>
       </div>
