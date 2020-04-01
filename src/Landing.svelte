@@ -27,8 +27,8 @@
           class="bg-black-alpha-40 flex flex-col items-center justify-center
           w-full h-full">
           <div
-            class="bg-black-alpha-70 border w-3/4 md:w-1/2 xl:w-1/3 flex
-            flex-col items-center justify-center p-4">
+            class="bg-black-alpha-70 border w-90p max-w-screen-sm flex flex-col
+            items-center justify-center p-4">
             <div
               class="text-center font-thin text-white text-5xl sm:text-6xl
               leading-tight tracking-widest mb-8">
