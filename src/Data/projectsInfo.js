@@ -7,11 +7,11 @@ const projects = [
       "An app to track bugs in your projects. You can tag a fixer to a bug and the account will automatically have that project added to their porjects page.",
     background: "./images/BugTracker-bg.jpg",
     baseIcon: "./icons/BugTracker-icon.svg",
-    overlayIcon: "./icons/svelte-icon.svg",
+    overlayIcon: "./icons/reactjs-icon.svg",
     technologies: [
       {
-        tech: "Svelte",
-        link: "https://github.com/sveltejs/svelte"
+        tech: "React",
+        link: "https://github.com/facebook/react"
       },
       {
         tech: "MaterializeCSS",
@@ -99,7 +99,7 @@ const projects = [
     description: "Journaling app",
     background: "./images/Journal-bg.jpg",
     baseIcon: "./icons/Journal-icon.png",
-    overlayIcon: "./icons/tailwindcss-icon.svg",
+    overlayIcon: "./icons/svelte-icon.svg",
     technologies: [
       {
         tech: "Svelte",
