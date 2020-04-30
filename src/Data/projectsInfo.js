@@ -11,37 +11,37 @@ const projects = [
     technologies: [
       {
         tech: "React",
-        link: "https://github.com/facebook/react"
+        link: "https://github.com/facebook/react",
       },
       {
         tech: "MaterializeCSS",
-        link: "https://github.com/Dogfalo/materialize"
+        link: "https://github.com/Dogfalo/materialize",
       },
       {
         tech: "Svelte Media Query",
-        link: "https://github.com/xelaok/svelte-media-query"
+        link: "https://github.com/xelaok/svelte-media-query",
       },
       {
         tech: "Rollup",
-        link: "https://github.com/rollup/rollup"
+        link: "https://github.com/rollup/rollup",
       },
       {
         tech: "SPA Router",
-        link: "https://github.com/ItalyPaleAle/svelte-spa-router"
+        link: "https://github.com/ItalyPaleAle/svelte-spa-router",
       },
       {
         tech: "NPM",
-        link: "https://www.npmjs.com/"
+        link: "https://www.npmjs.com/",
       },
       {
         tech: "HTML",
-        link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference"
+        link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference",
       },
       {
         tech: "CSS",
-        link: "https://developer.mozilla.org/en-US/docs/Web/CSS"
-      }
-    ]
+        link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
+      },
+    ],
   },
 
   {
@@ -55,41 +55,41 @@ const projects = [
     technologies: [
       {
         tech: "Node",
-        link: "https://github.com/nodejs/node"
+        link: "https://github.com/nodejs/node",
       },
       {
         tech: "Koa",
-        link: "https://github.com/koajs/koa"
+        link: "https://github.com/koajs/koa",
       },
       {
         tech: "MongoDB",
-        link: "https://www.mongodb.com/"
+        link: "https://www.mongodb.com/",
       },
       {
         tech: "Mongoose",
-        link: "https://github.com/Automattic/mongoose"
+        link: "https://github.com/Automattic/mongoose",
       },
       {
         tech: "Passport",
-        link: "https://github.com/jaredhanson/passport"
+        link: "https://github.com/jaredhanson/passport",
       },
       {
         tech: "JWT",
-        link: "https://github.com/auth0/node-jsonwebtoken"
+        link: "https://github.com/auth0/node-jsonwebtoken",
       },
       {
         tech: "Nodemon",
-        link: "https://github.com/remy/nodemon"
+        link: "https://github.com/remy/nodemon",
       },
       {
         tech: "Koa Router",
-        link: "https://github.com/koajs/router"
+        link: "https://github.com/koajs/router",
       },
       {
         tech: "Bcrypt",
-        link: "https://github.com/kelektiv/node.bcrypt.js"
-      }
-    ]
+        link: "https://github.com/kelektiv/node.bcrypt.js",
+      },
+    ],
   },
   {
     url: "https://journalll.herokuapp.com/",
@@ -103,37 +103,37 @@ const projects = [
     technologies: [
       {
         tech: "Svelte",
-        link: "https://github.com/sveltejs/svelte"
+        link: "https://github.com/sveltejs/svelte",
       },
       {
         tech: "Tailwind CSS",
-        link: "https://github.com/tailwindcss/tailwindcss"
+        link: "https://github.com/tailwindcss/tailwindcss",
       },
       {
         tech: "Smelte",
-        link: "https://github.com/matyunya/smelte"
+        link: "https://github.com/matyunya/smelte",
       },
       {
         tech: "SPA Router",
-        link: "https://github.com/ItalyPaleAle/svelte-spa-router"
+        link: "https://github.com/ItalyPaleAle/svelte-spa-router",
       },
       {
         tech: "Rollup",
-        link: "https://github.com/rollup/rollup"
+        link: "https://github.com/rollup/rollup",
       },
       {
         tech: "NPM",
-        link: "https://www.npmjs.com/"
+        link: "https://www.npmjs.com/",
       },
       {
         tech: "HTML",
-        link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference"
+        link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference",
       },
       {
         tech: "CSS",
-        link: "https://developer.mozilla.org/en-US/docs/Web/CSS"
-      }
-    ]
+        link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
+      },
+    ],
   },
   {
     url: "https://journalll.herokuapp.com/docs/",
@@ -146,33 +146,33 @@ const projects = [
     technologies: [
       {
         tech: "Node",
-        link: "https://github.com/nodejs/node"
+        link: "https://github.com/nodejs/node",
       },
       {
         tech: "Express",
-        link: "https://github.com/expressjs/express"
+        link: "https://github.com/expressjs/express",
       },
       {
         tech: "MongoDB",
-        link: "https://www.mongodb.com/"
+        link: "https://www.mongodb.com/",
       },
       {
         tech: "Mongoose",
-        link: "https://github.com/Automattic/mongoose"
+        link: "https://github.com/Automattic/mongoose",
       },
       {
         tech: "JWT",
-        link: "https://github.com/auth0/node-jsonwebtoken"
+        link: "https://github.com/auth0/node-jsonwebtoken",
       },
       {
         tech: "Bcrypt",
-        link: "https://github.com/kelektiv/node.bcrypt.js"
+        link: "https://github.com/kelektiv/node.bcrypt.js",
       },
       {
         tech: "Nodemon",
-        link: "https://github.com/remy/nodemon"
-      }
-    ]
+        link: "https://github.com/remy/nodemon",
+      },
+    ],
   },
   {
     url: "https://the-best-react-weather-app.netlify.com/",
@@ -186,25 +186,60 @@ const projects = [
     technologies: [
       {
         tech: "React",
-        link: "https://github.com/facebook/react"
+        link: "https://github.com/facebook/react",
       },
       {
         tech: "Tailwind CSS",
-        link: "https://github.com/tailwindcss/tailwindcss"
+        link: "https://github.com/tailwindcss/tailwindcss",
       },
       {
         tech: "Styled Components",
-        link: "https://github.com/styled-components/styled-components"
+        link: "https://github.com/styled-components/styled-components",
       },
       {
         tech: "Post CSS",
-        link: "https://github.com/postcss/postcss"
+        link: "https://github.com/postcss/postcss",
       },
       {
         tech: "Purge CSS",
-        link: "https://github.com/FullHuman/purgecss"
-      }
-    ]
+        link: "https://github.com/FullHuman/purgecss",
+      },
+    ],
+  },
+  {
+    url: "https://soundinsight.netlify.app/",
+    github: "https://github.com/vpassanisi/Svelte-Blog",
+    title: "Blog",
+    description: "This is a personal blog about audio.",
+    background: "./images/blog-bg.jpg",
+    baseIcon: "",
+    overlayIcon: "./icons/svelte-icon.svg",
+    technologies: [
+      {
+        tech: "Svelte",
+        link: "https://github.com/sveltejs/svelte",
+      },
+      {
+        tech: "Tailwind CSS",
+        link: "https://github.com/tailwindcss/tailwindcss",
+      },
+      {
+        tech: "Tone JS",
+        link: "https://tonejs.github.io/",
+      },
+      {
+        tech: "D3",
+        link: "https://d3js.org/",
+      },
+      {
+        tech: "Post CSS",
+        link: "https://github.com/postcss/postcss",
+      },
+      {
+        tech: "Purge CSS",
+        link: "https://github.com/FullHuman/purgecss",
+      },
+    ],
   },
   {
     url: "https://react-contact-keeperr.herokuapp.com/",
@@ -217,26 +252,26 @@ const projects = [
     technologies: [
       {
         tech: "React",
-        link: "https://github.com/facebook/react"
+        link: "https://github.com/facebook/react",
       },
       {
         tech: "React Router",
         link:
-          "https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom"
+          "https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom",
       },
       {
         tech: "react-transition-group",
-        link: "https://github.com/reactjs/react-transition-group"
+        link: "https://github.com/reactjs/react-transition-group",
       },
       {
         tech: "CSS",
-        link: "https://developer.mozilla.org/en-US/docs/Web/CSS"
+        link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
       },
       {
         tech: "NPM",
-        link: "https://www.npmjs.com/"
-      }
-    ]
+        link: "https://www.npmjs.com/",
+      },
+    ],
   },
   {
     url: "https://react-contact-keeperr.herokuapp.com/doc/doc.html",
@@ -248,33 +283,33 @@ const projects = [
     technologies: [
       {
         tech: "Node",
-        link: "https://github.com/nodejs/node"
+        link: "https://github.com/nodejs/node",
       },
       {
         tech: "Express",
-        link: "https://github.com/expressjs/express"
+        link: "https://github.com/expressjs/express",
       },
       {
         tech: "MongoDB",
-        link: "https://www.mongodb.com/"
+        link: "https://www.mongodb.com/",
       },
       {
         tech: "Mongoose",
-        link: "https://github.com/Automattic/mongoose"
+        link: "https://github.com/Automattic/mongoose",
       },
       {
         tech: "JWT",
-        link: "https://github.com/auth0/node-jsonwebtoken"
+        link: "https://github.com/auth0/node-jsonwebtoken",
       },
       {
         tech: "dotenv",
-        link: "https://github.com/motdotla/dotenv"
+        link: "https://github.com/motdotla/dotenv",
       },
       {
         tech: "Nodemon",
-        link: "https://github.com/remy/nodemon"
-      }
-    ]
+        link: "https://github.com/remy/nodemon",
+      },
+    ],
   },
   {
     url: "https://githubfinder-react-app.netlify.com/",
@@ -288,26 +323,26 @@ const projects = [
     technologies: [
       {
         tech: "React",
-        link: "https://github.com/facebook/react"
+        link: "https://github.com/facebook/react",
       },
       {
         tech: "Axios",
-        link: "https://github.com/axios/axios"
+        link: "https://github.com/axios/axios",
       },
       {
         tech: "React Router",
         link:
-          "https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom"
+          "https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom",
       },
       {
         tech: "CSS",
-        link: "https://developer.mozilla.org/en-US/docs/Web/CSS"
+        link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
       },
       {
         tech: "NPM",
-        link: "https://www.npmjs.com/"
-      }
-    ]
+        link: "https://www.npmjs.com/",
+      },
+    ],
   },
   {
     url: "https://calorie-tracker-site.netlify.com/",
@@ -320,21 +355,21 @@ const projects = [
     technologies: [
       {
         tech: "Javascript",
-        link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+        link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
       },
       {
         tech: "MaterializeCSS",
-        link: "https://github.com/Dogfalo/materialize"
+        link: "https://github.com/Dogfalo/materialize",
       },
       {
         tech: "HTML",
-        link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference"
+        link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference",
       },
       {
         tech: "CSS",
-        link: "https://developer.mozilla.org/en-US/docs/Web/CSS"
-      }
-    ]
+        link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
+      },
+    ],
   },
 
   {
@@ -348,21 +383,21 @@ const projects = [
     technologies: [
       {
         tech: "JQuery",
-        link: "https://github.com/jquery/jquery"
+        link: "https://github.com/jquery/jquery",
       },
       {
         tech: "HTML",
-        link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference"
+        link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference",
       },
       {
         tech: "CSS",
-        link: "https://developer.mozilla.org/en-US/docs/Web/CSS"
+        link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
       },
       {
         tech: "Javascript",
-        link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
-      }
-    ]
+        link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      },
+    ],
   },
   {
     url: "https://hotel-bt-site.netlify.com/",
@@ -375,17 +410,17 @@ const projects = [
     technologies: [
       {
         tech: "Font Awesome",
-        link: "https://fontawesome.com/"
+        link: "https://fontawesome.com/",
       },
       {
         tech: "HTML",
-        link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference"
+        link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference",
       },
       {
         tech: "CSS",
-        link: "https://developer.mozilla.org/en-US/docs/Web/CSS"
-      }
-    ]
+        link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
+      },
+    ],
   },
   {
     url: "https://presentation-site.netlify.com/",
@@ -398,17 +433,17 @@ const projects = [
     technologies: [
       {
         tech: "Font Awesome",
-        link: "https://fontawesome.com/"
+        link: "https://fontawesome.com/",
       },
       {
         tech: "HTML",
-        link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference"
+        link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference",
       },
       {
         tech: "CSS",
-        link: "https://developer.mozilla.org/en-US/docs/Web/CSS"
-      }
-    ]
+        link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
+      },
+    ],
   },
   {
     url: "https://personal-demo-site.netlify.com/",
@@ -421,21 +456,21 @@ const projects = [
     technologies: [
       {
         tech: "Font Awesome",
-        link: "https://fontawesome.com/"
+        link: "https://fontawesome.com/",
       },
       {
         tech: "Javascript",
-        link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+        link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
       },
       {
         tech: "HTML",
-        link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference"
+        link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference",
       },
       {
         tech: "CSS",
-        link: "https://developer.mozilla.org/en-US/docs/Web/CSS"
-      }
-    ]
+        link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
+      },
+    ],
   },
   {
     url: "https://newsgrid-demo.netlify.com/",
@@ -448,18 +483,18 @@ const projects = [
     technologies: [
       {
         tech: "Font Awesome",
-        link: "https://fontawesome.com/"
+        link: "https://fontawesome.com/",
       },
       {
         tech: "HTML",
-        link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference"
+        link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference",
       },
       {
         tech: "CSS",
-        link: "https://developer.mozilla.org/en-US/docs/Web/CSS"
-      }
-    ]
-  }
+        link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
+      },
+    ],
+  },
 ];
 
 export default projects;
