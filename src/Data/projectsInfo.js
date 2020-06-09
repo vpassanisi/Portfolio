@@ -242,6 +242,60 @@ const projects = [
     ],
   },
   {
+    url: "https://go-react-vue-svelte-todolist.herokuapp.com/",
+    github: "https://github.com/vpassanisi/Golang-TodoList-API",
+    title: "Multi-Framework TodoList",
+    background: "./images/TodoList-bg.jpg",
+    overlayIcon: "./icons/JavaScript-icon.jpg",
+    technologies: [
+      {
+        tech: "React",
+        link: "https://github.com/facebook/react",
+      },
+      {
+        tech: "Svelte",
+        link: "https://github.com/sveltejs/svelte",
+      },
+      {
+        tech: "Vue",
+        link: "https://github.com/vuejs/vue",
+      },
+      {
+        tech: "Tailwind CSS",
+        link: "https://github.com/tailwindcss/tailwindcss",
+      },
+      {
+        tech: "Webpack",
+        link: "https://github.com/webpack/webpack",
+      },
+    ],
+  },
+  {
+    url: "https://go-react-vue-svelte-todolist.herokuapp.com/docs",
+    github: "https://github.com/vpassanisi/Golang-TodoList-API",
+    title: "TodoList REST API",
+    background: "./images/TodoListAPI-bg.jpg",
+    overlayIcon: "./icons/go-icon.jpg",
+    technologies: [
+      {
+        tech: "Golang",
+        link: "https://golang.org/",
+      },
+      {
+        tech: "MongoDB",
+        link: "https://www.mongodb.com/",
+      },
+      {
+        tech: "JWT",
+        link: "https://github.com/auth0/node-jsonwebtoken",
+      },
+      {
+        tech: "Bcrypt",
+        link: "https://github.com/kelektiv/node.bcrypt.js",
+      },
+    ],
+  },
+  {
     url: "https://react-contact-keeperr.herokuapp.com/",
     github: "https://github.com/vpassanisi/React-Contact-Keeper",
     title: "Contact Keeper",
