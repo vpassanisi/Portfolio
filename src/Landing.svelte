@@ -43,8 +43,7 @@
             <div
               class="text-white text-center text-xl font-hairline w-full
               md:w-3/5">
-              Interested in Web Development, Programming, Audio, Learning. Love
-              e-sports, listening to music.
+              Interested in Web Development, Programming, Audio, Space, Learning.
             </div>
             <hr class="my-8 w-1/3" />
             <div class="flex flex-row">
