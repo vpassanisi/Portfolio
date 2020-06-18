@@ -1,6 +1,6 @@
 <script>
-  import projects from "./Data/projectsInfo.js";
-  import ProjectCard from "./ProjectCard.svelte";
+  import projects from "../Data/projectsInfo.js";
+  import ProjectCard from "../components/ProjectCard.svelte";
 </script>
 
 <section>

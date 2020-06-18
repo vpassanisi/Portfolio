@@ -1,7 +1,7 @@
 <script>
   import { fly } from "svelte/transition";
   import { quadInOut, quartInOut, expoInOut } from "svelte/easing";
-  import { media } from "./stores/watchMedia.js";
+  import { media } from "../stores/watchMedia.js";
 
   export let project;
   let hovering = false;
@@ -41,7 +41,7 @@
   on:click={enter}
   style={`background: url(${project.background}) top center/cover no-repeat`}
   class="relative overflow-hidden w-full sm:w-1/2 md:w-1/3 lg:w-1/4
-  project-height border-4 border-black bg">
+  project-height border-4 border-dark-gray-900">
   <!-- <div class="inline-block bg-gray-900">
     <img class="h-12 w-12 m-2" src={project.baseIcon} alt="" />
   </div> -->

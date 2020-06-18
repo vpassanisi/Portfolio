@@ -275,7 +275,7 @@ const projects = [
     github: "https://github.com/vpassanisi/Golang-TodoList-API",
     title: "TodoList REST API",
     background: "./images/TodoListAPI-bg.jpg",
-    overlayIcon: "./icons/go-icon.jpg",
+    overlayIcon: "./icons/golang-icon.svg",
     technologies: [
       {
         tech: "Golang",
@@ -292,6 +292,31 @@ const projects = [
       {
         tech: "Bcrypt",
         link: "https://github.com/kelektiv/node.bcrypt.js",
+      },
+    ],
+  },
+  {
+    url: "https://rew-calibration-editor.netlify.app/",
+    github: "https://github.com/vpassanisi/REW-Calibaration-File-Editor",
+    title: "REW Editor",
+    background: "./images/REW-cal-bg.jpg",
+    overlayIcon: "./icons/reactjs-icon.svg",
+    technologies: [
+      {
+        tech: "React",
+        link: "https://github.com/facebook/react",
+      },
+      {
+        tech: "Chart.js",
+        link: "https://github.com/chartjs",
+      },
+      {
+        tech: "chartjs-plugin-dragdata",
+        link: "https://github.com/chrispahm/chartjs-plugin-dragdata",
+      },
+      {
+        tech: "Tailwind CSS",
+        link: "https://github.com/tailwindcss/tailwindcss",
       },
     ],
   },

@@ -1,7 +1,11 @@
-body {
-  background-color: black;
-}
-
 .w-90p {
   width: 90%;
+}
+
+.w-max-content {
+  width: max-content;
+}
+
+.min-w-40 {
+  min-width: 10rem;
 }

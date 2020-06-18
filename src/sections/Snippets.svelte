@@ -1,5 +1,5 @@
 <script>
-  import { javascriptSnippets, goSnippets } from "./Data/snippetsInfo.js";
+  import { javascriptSnippets, goSnippets } from "../Data/snippetsInfo.js";
 </script>
 
 <section>
