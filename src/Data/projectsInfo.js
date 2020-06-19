@@ -1,4 +1,208 @@
-const projects = [
+export const tech = {
+  JavaScript: {
+    name: "JavaScript",
+    link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    icon: "./icons/javascript-icon.svg",
+  },
+  TypeScript: {
+    name: "TypeScript",
+    link: "https://www.typescriptlang.org/",
+    icon: "./icons/typescript-icon.svg",
+  },
+  React: {
+    name: "React",
+    link: "https://github.com/facebook/react",
+    icon: "./icons/react-icon.svg",
+  },
+  Vue: {
+    name: "Vue",
+    link: "https://github.com/vuejs/vue",
+    icon: "./icons/vue-icon.svg",
+  },
+  Svelte: {
+    name: "Svelte",
+    link: "https://github.com/sveltejs/svelte",
+    icon: "./icons/svelte-icon.svg",
+  },
+  Node: {
+    name: "Node",
+    link: "https://github.com/nodejs/node",
+    icon: "./icons/node-icon.svg",
+  },
+  Express: {
+    name: "Express",
+    link: "https://github.com/expressjs/express",
+    icon: "./icons/express-icon.svg",
+  },
+  Koa: {
+    name: "Koa",
+    link: "https://github.com/koajs/koa",
+    icon: "./icons/koa-icon.svg",
+  },
+  Webpack: {
+    name: "Webpack",
+    link: "https://github.com/webpack/webpack",
+    icon: "./icons/webpack-icon.svg",
+  },
+  HTML: {
+    name: "HTML",
+    link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference",
+    icon: "./icons/html-5-icon.svg",
+  },
+  CSS: {
+    name: "CSS",
+    link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
+    icon: "./icons/css-3-icon.svg",
+  },
+  TailwindCSS: {
+    name: "TailwindCSS",
+    link: "https://github.com/tailwindcss/tailwindcss",
+    icon: "./icons/tailwindcss-icon.svg",
+  },
+  MaterializeCSS: {
+    name: "Materialize",
+    link: "https://github.com/Dogfalo/materialize",
+    icon: "./icons/materializecss-icon.svg",
+  },
+  Golang: {
+    name: "Golang",
+    link: "https://golang.org/",
+    icon: "./icons/golang-icon.svg",
+  },
+  MongoDB: {
+    name: "MongoDB",
+    link: "https://www.mongodb.com/",
+    icon: "./icons/mongodb-icon.svg",
+  },
+  GitHub: {
+    name: "GitHub",
+    link: "https://github.com/",
+    icon: "./icons/github-icon.svg",
+  },
+  SvelteMediaQuery: {
+    name: "Svelte Media Query",
+    link: "https://github.com/xelaok/svelte-media-query",
+    icon: "",
+  },
+  Rollup: {
+    name: "Rollup",
+    link: "https://github.com/rollup/rollup",
+    icon: "",
+  },
+  SPARouter: {
+    name: "SPA Router",
+    link: "https://github.com/ItalyPaleAle/svelte-spa-router",
+    icon: "",
+  },
+  NPM: {
+    name: "NPM",
+    link: "https://www.npmjs.com/",
+    icon: "",
+  },
+  Mongoose: {
+    name: "Mongoose",
+    link: "https://github.com/Automattic/mongoose",
+    icon: "",
+  },
+  JWT: {
+    name: "JWT",
+    link: "https://github.com/auth0/node-jsonwebtoken",
+    icon: "",
+  },
+  Nodemon: {
+    name: "Nodemon",
+    link: "https://github.com/remy/nodemon",
+    icon: "",
+  },
+  Passport: {
+    name: "Passport",
+    link: "https://github.com/jaredhanson/passport",
+    icon: "",
+  },
+  KoaRouter: {
+    name: "Koa Router",
+    link: "https://github.com/koajs/router",
+    icon: "",
+  },
+  Bcrypt: {
+    name: "Bcrypt",
+    link: "https://github.com/kelektiv/node.bcrypt.js",
+    icon: "",
+  },
+  Smelte: {
+    name: "Smelte",
+    link: "https://github.com/matyunya/smelte",
+    icon: "",
+  },
+  PostCSS: {
+    name: "PostCSS",
+    link: "https://github.com/postcss/postcss",
+    icon: "",
+  },
+  PurgeCSS: {
+    name: "PurgeCSS",
+    link: "https://github.com/FullHuman/purgecss",
+    icon: "",
+  },
+  ToneJS: {
+    name: "ToneJS",
+    link: "https://tonejs.github.io/",
+    icon: "",
+  },
+  D3: {
+    name: "D3",
+    link: "https://d3js.org/",
+    icon: "",
+  },
+  ChartJS: {
+    name: "ChartJS",
+    link: "https://github.com/chartjs/Chart.js",
+    icon: "",
+  },
+  ChartJSDragdata: {
+    name: "chartjs-plugin-dragdata",
+    link: "https://github.com/chrispahm/chartjs-plugin-dragdata",
+    icon: "",
+  },
+  ReactTransitionGroup: {
+    name: "React-Transition-Group",
+    link: "https://github.com/reactjs/react-transition-group",
+    icon: "",
+  },
+  ReactRouter: {
+    name: "React Router",
+    link:
+      "https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom",
+    icon: "",
+  },
+  Dotenv: {
+    name: "Dotenv",
+    link: "https://github.com/motdotla/dotenv",
+    icon: "",
+  },
+  Axios: {
+    name: "Axios",
+    link: "https://github.com/axios/axios",
+    icon: "",
+  },
+  JQuery: {
+    name: "JQuery",
+    link: "https://github.com/jquery/jquery",
+    icon: "./icons/jquery-icon.svg",
+  },
+  FontAwesome: {
+    name: "Font Awesome",
+    link: "https://fontawesome.com/6?next=%2F",
+    icon: "",
+  },
+  StyledComponents: {
+    name: "Styled Components",
+    link: "https://github.com/styled-components/styled-components",
+    icon: "",
+  },
+};
+
+export const projects = [
   {
     url: "https://bug-tracker-api.herokuapp.com/",
     github: "https://github.com/vpassanisi/Bug-Tracker-API/tree/master/client",
@@ -6,41 +210,16 @@ const projects = [
     description:
       "An app to track bugs in your projects. You can tag a fixer to a bug and the account will automatically have that project added to their porjects page.",
     background: "./images/BugTracker-bg.jpg",
-    baseIcon: "./icons/BugTracker-icon.svg",
-    overlayIcon: "./icons/reactjs-icon.svg",
+    overlayIcon: tech.React.icon,
     technologies: [
-      {
-        tech: "React",
-        link: "https://github.com/facebook/react",
-      },
-      {
-        tech: "MaterializeCSS",
-        link: "https://github.com/Dogfalo/materialize",
-      },
-      {
-        tech: "Svelte Media Query",
-        link: "https://github.com/xelaok/svelte-media-query",
-      },
-      {
-        tech: "Rollup",
-        link: "https://github.com/rollup/rollup",
-      },
-      {
-        tech: "SPA Router",
-        link: "https://github.com/ItalyPaleAle/svelte-spa-router",
-      },
-      {
-        tech: "NPM",
-        link: "https://www.npmjs.com/",
-      },
-      {
-        tech: "HTML",
-        link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference",
-      },
-      {
-        tech: "CSS",
-        link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
-      },
+      tech.React,
+      tech.MaterializeCSS,
+      tech.SvelteMediaQuery,
+      tech.Rollup,
+      tech.SPARouter,
+      tech.NPM,
+      tech.HTML,
+      tech.CSS,
     ],
   },
 
@@ -50,45 +229,17 @@ const projects = [
     title: "BugTracker REST API",
     description: "REAST API server for BugTracker App",
     background: "./images/BugTrackerAPI-bg.jpg",
-    baseIcon: "./icons/API-icon.svg",
-    overlayIcon: "./icons/koajs-icon.svg",
+    overlayIcon: tech.Koa.icon,
     technologies: [
-      {
-        tech: "Node",
-        link: "https://github.com/nodejs/node",
-      },
-      {
-        tech: "Koa",
-        link: "https://github.com/koajs/koa",
-      },
-      {
-        tech: "MongoDB",
-        link: "https://www.mongodb.com/",
-      },
-      {
-        tech: "Mongoose",
-        link: "https://github.com/Automattic/mongoose",
-      },
-      {
-        tech: "Passport",
-        link: "https://github.com/jaredhanson/passport",
-      },
-      {
-        tech: "JWT",
-        link: "https://github.com/auth0/node-jsonwebtoken",
-      },
-      {
-        tech: "Nodemon",
-        link: "https://github.com/remy/nodemon",
-      },
-      {
-        tech: "Koa Router",
-        link: "https://github.com/koajs/router",
-      },
-      {
-        tech: "Bcrypt",
-        link: "https://github.com/kelektiv/node.bcrypt.js",
-      },
+      tech.Node,
+      tech.Koa,
+      tech.MongoDB,
+      tech.Mongoose,
+      tech.Passport,
+      tech.JWT,
+      tech.Nodemon,
+      tech.KoaRouter,
+      tech.Bcrypt,
     ],
   },
   {
@@ -96,82 +247,33 @@ const projects = [
     github:
       "https://github.com/vpassanisi/Gratitude-Journal_API/tree/master/client",
     title: "Journal App",
-    description: "Journaling app",
     background: "./images/Journal-bg.jpg",
-    baseIcon: "./icons/Journal-icon.png",
-    overlayIcon: "./icons/svelte-icon.svg",
+    overlayIcon: tech.Svelte.icon,
     technologies: [
-      {
-        tech: "Svelte",
-        link: "https://github.com/sveltejs/svelte",
-      },
-      {
-        tech: "Tailwind CSS",
-        link: "https://github.com/tailwindcss/tailwindcss",
-      },
-      {
-        tech: "Smelte",
-        link: "https://github.com/matyunya/smelte",
-      },
-      {
-        tech: "SPA Router",
-        link: "https://github.com/ItalyPaleAle/svelte-spa-router",
-      },
-      {
-        tech: "Rollup",
-        link: "https://github.com/rollup/rollup",
-      },
-      {
-        tech: "NPM",
-        link: "https://www.npmjs.com/",
-      },
-      {
-        tech: "HTML",
-        link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference",
-      },
-      {
-        tech: "CSS",
-        link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
-      },
+      tech.Svelte,
+      tech.TailwindCSS,
+      tech.Smelte,
+      tech.SPARouter,
+      tech.Rollup,
+      tech.NPM,
+      tech.HTML,
+      tech.CSS,
     ],
   },
   {
     url: "https://journalll.herokuapp.com/docs/",
     github: "https://github.com/vpassanisi/Gratitude-Journal_API",
     title: "Journal REST API",
-    description: "REST API for journaling app",
     background: "./images/JournalAPI-bg.jpg",
-    baseIcon: "./icons/API-icon.svg",
-    overlayIcon: "./icons/expressjs-icon.svg",
+    overlayIcon: tech.Express.icon,
     technologies: [
-      {
-        tech: "Node",
-        link: "https://github.com/nodejs/node",
-      },
-      {
-        tech: "Express",
-        link: "https://github.com/expressjs/express",
-      },
-      {
-        tech: "MongoDB",
-        link: "https://www.mongodb.com/",
-      },
-      {
-        tech: "Mongoose",
-        link: "https://github.com/Automattic/mongoose",
-      },
-      {
-        tech: "JWT",
-        link: "https://github.com/auth0/node-jsonwebtoken",
-      },
-      {
-        tech: "Bcrypt",
-        link: "https://github.com/kelektiv/node.bcrypt.js",
-      },
-      {
-        tech: "Nodemon",
-        link: "https://github.com/remy/nodemon",
-      },
+      tech.Node,
+      tech.Express,
+      tech.MongoDB,
+      tech.Mongoose,
+      tech.JWT,
+      tech.Bcrypt,
+      tech.Nodemon,
     ],
   },
   {
@@ -181,29 +283,13 @@ const projects = [
     description:
       "A weather app. Put in any location in any format. You can change between celcius and farenheit and add any locatin to you favorites list.  all changes are saved for you and are loaded when the page loads",
     background: "./images/WeatherApp-bg.jpg",
-    baseIcon: "./icons/WeatherApp-icon.svg",
-    overlayIcon: "./icons/reactjs-icon.svg",
+    overlayIcon: tech.React.icon,
     technologies: [
-      {
-        tech: "React",
-        link: "https://github.com/facebook/react",
-      },
-      {
-        tech: "Tailwind CSS",
-        link: "https://github.com/tailwindcss/tailwindcss",
-      },
-      {
-        tech: "Styled Components",
-        link: "https://github.com/styled-components/styled-components",
-      },
-      {
-        tech: "Post CSS",
-        link: "https://github.com/postcss/postcss",
-      },
-      {
-        tech: "Purge CSS",
-        link: "https://github.com/FullHuman/purgecss",
-      },
+      tech.React,
+      tech.TailwindCSS,
+      tech.StyledComponents,
+      tech.PostCSS,
+      tech.PurgeCSS,
     ],
   },
   {
@@ -212,33 +298,14 @@ const projects = [
     title: "Blog",
     description: "This is a personal blog about audio.",
     background: "./images/blog-bg.jpg",
-    baseIcon: "",
-    overlayIcon: "./icons/svelte-icon.svg",
+    overlayIcon: tech.Svelte.icon,
     technologies: [
-      {
-        tech: "Svelte",
-        link: "https://github.com/sveltejs/svelte",
-      },
-      {
-        tech: "Tailwind CSS",
-        link: "https://github.com/tailwindcss/tailwindcss",
-      },
-      {
-        tech: "Tone JS",
-        link: "https://tonejs.github.io/",
-      },
-      {
-        tech: "D3",
-        link: "https://d3js.org/",
-      },
-      {
-        tech: "Post CSS",
-        link: "https://github.com/postcss/postcss",
-      },
-      {
-        tech: "Purge CSS",
-        link: "https://github.com/FullHuman/purgecss",
-      },
+      tech.Svelte,
+      tech.TailwindCSS,
+      tech.ToneJS,
+      tech.D3,
+      tech.PostCSS,
+      tech.PurgeCSS,
     ],
   },
   {
@@ -246,28 +313,13 @@ const projects = [
     github: "https://github.com/vpassanisi/Golang-TodoList-API",
     title: "Multi-Framework TodoList",
     background: "./images/TodoList-bg.jpg",
-    overlayIcon: "./icons/JavaScript-icon.jpg",
+    overlayIcon: tech.JavaScript.icon,
     technologies: [
-      {
-        tech: "React",
-        link: "https://github.com/facebook/react",
-      },
-      {
-        tech: "Svelte",
-        link: "https://github.com/sveltejs/svelte",
-      },
-      {
-        tech: "Vue",
-        link: "https://github.com/vuejs/vue",
-      },
-      {
-        tech: "Tailwind CSS",
-        link: "https://github.com/tailwindcss/tailwindcss",
-      },
-      {
-        tech: "Webpack",
-        link: "https://github.com/webpack/webpack",
-      },
+      tech.React,
+      tech.Svelte,
+      tech.Vue,
+      tech.TailwindCSS,
+      tech.Webpack,
     ],
   },
   {
@@ -275,49 +327,20 @@ const projects = [
     github: "https://github.com/vpassanisi/Golang-TodoList-API",
     title: "TodoList REST API",
     background: "./images/TodoListAPI-bg.jpg",
-    overlayIcon: "./icons/golang-icon.svg",
-    technologies: [
-      {
-        tech: "Golang",
-        link: "https://golang.org/",
-      },
-      {
-        tech: "MongoDB",
-        link: "https://www.mongodb.com/",
-      },
-      {
-        tech: "JWT",
-        link: "https://github.com/auth0/node-jsonwebtoken",
-      },
-      {
-        tech: "Bcrypt",
-        link: "https://github.com/kelektiv/node.bcrypt.js",
-      },
-    ],
+    overlayIcon: tech.Golang.icon,
+    technologies: [tech.Golang, tech.MongoDB, tech.JWT, tech.Bcrypt],
   },
   {
     url: "https://rew-calibration-editor.netlify.app/",
     github: "https://github.com/vpassanisi/REW-Calibaration-File-Editor",
     title: "REW Editor",
     background: "./images/REW-cal-bg.jpg",
-    overlayIcon: "./icons/reactjs-icon.svg",
+    overlayIcon: tech.React.icon,
     technologies: [
-      {
-        tech: "React",
-        link: "https://github.com/facebook/react",
-      },
-      {
-        tech: "Chart.js",
-        link: "https://github.com/chartjs",
-      },
-      {
-        tech: "chartjs-plugin-dragdata",
-        link: "https://github.com/chrispahm/chartjs-plugin-dragdata",
-      },
-      {
-        tech: "Tailwind CSS",
-        link: "https://github.com/tailwindcss/tailwindcss",
-      },
+      tech.React,
+      tech.ChartJS,
+      tech.ChartJSDragdata,
+      tech.TailwindCSS,
     ],
   },
   {
@@ -327,29 +350,13 @@ const projects = [
     description:
       "A React, Node, Express, MongoDB app for CRUD operations to keep your contacts",
     background: "./images/ContactKeeper-bg.jpg",
-    overlayIcon: "./icons/reactjs-icon.svg",
+    overlayIcon: tech.React.icon,
     technologies: [
-      {
-        tech: "React",
-        link: "https://github.com/facebook/react",
-      },
-      {
-        tech: "React Router",
-        link:
-          "https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom",
-      },
-      {
-        tech: "react-transition-group",
-        link: "https://github.com/reactjs/react-transition-group",
-      },
-      {
-        tech: "CSS",
-        link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
-      },
-      {
-        tech: "NPM",
-        link: "https://www.npmjs.com/",
-      },
+      tech.React,
+      tech.ReactRouter,
+      tech.ReactTransitionGroup,
+      tech.CSS,
+      tech.NPM,
     ],
   },
   {
@@ -358,36 +365,15 @@ const projects = [
     title: "Contact Keeper REST API",
     description: "Node Express REST API for the contact keeper app",
     background: "./images/ContactKeeperAPI-bg.jpg",
-    overlayIcon: "./icons/expressjs-icon.svg",
+    overlayIcon: tech.Express.icon,
     technologies: [
-      {
-        tech: "Node",
-        link: "https://github.com/nodejs/node",
-      },
-      {
-        tech: "Express",
-        link: "https://github.com/expressjs/express",
-      },
-      {
-        tech: "MongoDB",
-        link: "https://www.mongodb.com/",
-      },
-      {
-        tech: "Mongoose",
-        link: "https://github.com/Automattic/mongoose",
-      },
-      {
-        tech: "JWT",
-        link: "https://github.com/auth0/node-jsonwebtoken",
-      },
-      {
-        tech: "dotenv",
-        link: "https://github.com/motdotla/dotenv",
-      },
-      {
-        tech: "Nodemon",
-        link: "https://github.com/remy/nodemon",
-      },
+      tech.Node,
+      tech.Express,
+      tech.MongoDB,
+      tech.Mongoose,
+      tech.JWT,
+      tech.Dotenv,
+      tech.Nodemon,
     ],
   },
   {
@@ -398,29 +384,13 @@ const projects = [
       "Use the github user api to search for a github user and view information about them",
     background: "./images/GitHubFinder-bg.jpg",
     baseIcon: "./icons/WeatherApp-icon.svg",
-    overlayIcon: "./icons/reactjs-icon.svg",
+    overlayIcon: tech.React.icon,
     technologies: [
-      {
-        tech: "React",
-        link: "https://github.com/facebook/react",
-      },
-      {
-        tech: "Axios",
-        link: "https://github.com/axios/axios",
-      },
-      {
-        tech: "React Router",
-        link:
-          "https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom",
-      },
-      {
-        tech: "CSS",
-        link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
-      },
-      {
-        tech: "NPM",
-        link: "https://www.npmjs.com/",
-      },
+      tech.React,
+      tech.Axios,
+      tech.ReactRouter,
+      tech.CSS,
+      tech.NPM,
     ],
   },
   {
@@ -429,26 +399,8 @@ const projects = [
     title: "Calorie Tracker",
     description: "A web app to track the calories in meals",
     background: "./images/CalorieTracker-bg.jpg",
-    baseIcon: "",
-    overlayIcon: "./icons/JavaScript-icon.jpg",
-    technologies: [
-      {
-        tech: "Javascript",
-        link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-      },
-      {
-        tech: "MaterializeCSS",
-        link: "https://github.com/Dogfalo/materialize",
-      },
-      {
-        tech: "HTML",
-        link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference",
-      },
-      {
-        tech: "CSS",
-        link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
-      },
-    ],
+    overlayIcon: tech.JavaScript.icon,
+    technologies: [tech.JavaScript, tech.MaterializeCSS, tech.HTML, tech.CSS],
   },
 
   {
@@ -458,25 +410,8 @@ const projects = [
     description: "Simple HTML and CSS static website",
     background: "./images/EdgeLedger-bg.jpg",
     baseIcon: "",
-    overlayIcon: "./icons/JQuery-icon.svg",
-    technologies: [
-      {
-        tech: "JQuery",
-        link: "https://github.com/jquery/jquery",
-      },
-      {
-        tech: "HTML",
-        link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference",
-      },
-      {
-        tech: "CSS",
-        link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
-      },
-      {
-        tech: "Javascript",
-        link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-      },
-    ],
+    overlayIcon: tech.JQuery.icon,
+    technologies: [tech.JQuery, tech.HTML, tech.CSS, tech.JavaScript],
   },
   {
     url: "https://hotel-bt-site.netlify.com/",
@@ -484,22 +419,8 @@ const projects = [
     title: "Hotel BT Website",
     description: "Simple HTML and CSS static website",
     background: "./images/HotelBT-bg.jpg",
-    baseIcon: "",
-    overlayIcon: "./icons/FA-icon.svg",
-    technologies: [
-      {
-        tech: "Font Awesome",
-        link: "https://fontawesome.com/",
-      },
-      {
-        tech: "HTML",
-        link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference",
-      },
-      {
-        tech: "CSS",
-        link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
-      },
-    ],
+    overlayIcon: tech.CSS.icon,
+    technologies: [tech.FontAwesome, tech.HTML, tech.CSS],
   },
   {
     url: "https://presentation-site.netlify.com/",
@@ -507,22 +428,8 @@ const projects = [
     title: "Presentation Website",
     description: "Simple HTML and CSS static website",
     background: "./images/Presentation-bg.jpg",
-    baseIcon: "",
-    overlayIcon: "./icons/FA-icon.svg",
-    technologies: [
-      {
-        tech: "Font Awesome",
-        link: "https://fontawesome.com/",
-      },
-      {
-        tech: "HTML",
-        link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference",
-      },
-      {
-        tech: "CSS",
-        link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
-      },
-    ],
+    overlayIcon: tech.CSS.icon,
+    technologies: [tech.FontAwesome, tech.HTML, tech.CSS],
   },
   {
     url: "https://personal-demo-site.netlify.com/",
@@ -530,26 +437,8 @@ const projects = [
     title: "Demo Personal Website",
     description: "Simple HTML and CSS and JavaScript static website",
     background: "./images/Personal-bg.jpg",
-    baseIcon: "",
-    overlayIcon: "./icons/FA-icon.svg",
-    technologies: [
-      {
-        tech: "Font Awesome",
-        link: "https://fontawesome.com/",
-      },
-      {
-        tech: "Javascript",
-        link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-      },
-      {
-        tech: "HTML",
-        link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference",
-      },
-      {
-        tech: "CSS",
-        link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
-      },
-    ],
+    overlayIcon: tech.CSS.icon,
+    technologies: [tech.FontAwesome, tech.JavaScript, tech.HTML, tech.CSS],
   },
   {
     url: "https://newsgrid-demo.netlify.com/",
@@ -557,23 +446,7 @@ const projects = [
     title: "NewsGrid Website",
     description: "Simple HTML and CSS and static website",
     background: "./images/NewsGrid-bg.jpg",
-    baseIcon: "",
-    overlayIcon: "./icons/FA-icon.svg",
-    technologies: [
-      {
-        tech: "Font Awesome",
-        link: "https://fontawesome.com/",
-      },
-      {
-        tech: "HTML",
-        link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference",
-      },
-      {
-        tech: "CSS",
-        link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
-      },
-    ],
+    overlayIcon: tech.CSS.icon,
+    technologies: [tech.FontAwesome, tech.HTML, tech.CSS],
   },
 ];
-
-export default projects;

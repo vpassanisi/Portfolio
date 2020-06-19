@@ -74,7 +74,7 @@
         <div class="flex flex-wrap bg-gray-400 rounded-md p-1">
           {#each project.technologies as tech}
             <a class="bg-black text-white rounded-md m-1 p-2" href={tech.link}>
-              {tech.tech}
+              {tech.name}
             </a>
           {/each}
         </div>
@@ -95,10 +95,7 @@
           class="h-full w-1/4 bg-gray-900 hover:bg-gray-800 transition
           duration-500 ease-in-out flex items-center justify-center"
           href={project.github}>
-          <img
-            class="h-12 w-12"
-            src="./icons/GitHub-Mark-Light-64px.png"
-            alt="" />
+          <img class="h-12 w-12" src="./icons/github-icon.svg" alt="" />
         </a>
       </div>
     </div>
